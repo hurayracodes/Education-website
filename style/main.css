@@ -103,18 +103,22 @@ h5 {
 
 h1 {
   font-size: 2.5rem;
+  color: var(--light-color);
 }
 
 h2 {
   font-size: 2rem;
+  color: var(--light-color);
 }
 
 h3 {
   font-size: 1.6rem;
+  color: var(--light-color);
 }
 
 h4 {
   font-size: 1.3rem;
+  color: var(--light-color);
 }
 
 img {
@@ -144,6 +148,8 @@ img {
 .btn-primary {
   background: var(--danger-color);
   color: var(--white-color);
+  display: inline-block;
+  align-self: center;
 }
 
 /* Header Navigation */
@@ -240,7 +246,7 @@ header {
 
 .categories__left p {
   font-size: 1.2rem;
-  color: var(--white-color);
+  color: var(--light-color);
   margin: 1rem 0 2rem;
 }
 
@@ -277,6 +283,7 @@ header {
 .category h5 {
   margin: 2rem 0 1rem;
   font-size: 1rem;
+  color: var(--light-color);
 }
 .category:nth-child(2) .category__icon{
   background: var(--danger-color);
@@ -365,20 +372,18 @@ header {
   color: var(--white-color);
   font-size: 0.82rem;
   flex-grow: 1;
+}.course__info .btn-primary{
+  display: inline-block;
 }
-
+.btn{
+  width: fit-content;
+}
 /* FAQs */
 .faqs {
   background: var(--color-bg2);
   padding: 6rem 0;
 }
 
-.faqs h2 {
-  text-align: center;
-  margin-bottom: 4rem;
-  font-size: 2rem;
-  color: var(--white-color);
-}
 
 .faqs__container {
   max-width: 800px;
